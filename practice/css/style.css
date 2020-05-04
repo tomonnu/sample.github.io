@@ -1,0 +1,33 @@
+html {
+  color: rgb(155, 155, 255);
+  text-shadow: 2px 2px 2px rgb(255, 255, 255);
+  background-image: url("IMG_2638.JPG");
+  background-repeat: no-repeat;
+  background-size:cover ;  
+  position: relative;
+  transform: translateY(30%);
+}
+
+.title {
+  font-family: 'Amatic SC', cursive;
+  font-size: 20px;
+  text-align: center;
+  
+}
+
+.from {
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 170px;
+  font-weight: bold;
+}
+.inputnum {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  text-align: center;
+  font-size: 18px;
+}

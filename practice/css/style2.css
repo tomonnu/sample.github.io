@@ -1,0 +1,141 @@
+* {
+  background-color: rgb(255, 242, 245);
+}
+h2 {
+	color: #d04255; /* 文字色 */
+	padding: 10px 10px 10px 60px; /* 上・右・下・左の余白 */
+	position: relative;
+}
+h2:before {
+	content: '＊*'; /*花に見せかけるためのアスタリスク*/
+	color: #fff; /* アスタリスクの色 */
+	display: inline-block;
+	font-size: 30px; /* アスタリスクの大きさ */
+	font-weight: bold;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	transform: rotate(20deg);
+	-moz-transform: rotate(20deg);
+	-webkit-transform: rotate(20deg);
+	-o-transform: rotate(20deg);
+	text-shadow: 0px 0px 6px #EAA8BF, 0px 0px 4px #EAA8BF, 0 0 0.5px #EAA8BF; /* アスタリスク周りの影 */
+}
+h2:after {
+	border-bottom: 2px dotted #EAA8BF; /* 下線 */
+	content: '';
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+}
+
+.first {
+  text-align: center;
+  color: #d46675;
+  text-shadow: 2px 2px 0 #fff;
+}
+hr { 
+  border-top: 2px dotted #EAA8BF;
+}
+
+.memory1 {
+  color: #d46675;
+}
+.memory1 h3 {
+  text-align: center;
+}
+span {
+  font-size: 14px;
+}
+
+#sinagawa {
+  width: 200px;
+  height: 240px;
+  float: right;
+}
+
+.memory2 {
+  color: #d46675;
+  margin-bottom: 20px;
+}
+
+#puri {
+  width: 180px;
+  height: 240px;
+  float: left;
+}
+
+.midasi1 {
+  margin-top: 20px;
+}
+
+#usiro {
+  margin-top: 10px;
+  width: 250px;
+  height: 200px;
+  float: right;
+}
+
+.memory3 {
+  color: #d46675;
+}
+ 
+.kousin {
+  margin: 40px 0;
+  text-align: center;
+}
+
+.sen {
+  margin-top: 50px;
+}
+
+#kumo {
+  width: 220px;
+  height: 200px;
+  float: right;
+}
+
+#ring {
+  width: 180px;
+  height: 240px;
+  float: left;
+}
+
+#cake {
+  width: 180px;
+  height: 230px;
+  float: right;
+}
+
+#mira {
+  width: 250px;
+  height: 200px;
+  float: right;
+} 
+
+#ranmaru {
+  width: 180px;
+  height: 240px;
+  float: left;
+}
+
+#tomo {
+  width: 180px;
+  height: 230px;
+  float: right;
+}
+
+#yuutyan {
+  display: block;
+  width: 240px;
+  height: 300px;
+  margin-left: 61px;
+}
+
+.sen2 {
+  margin-top: 50px;
+}
+.sen3 {
+  margin-top: 20px;
+}
